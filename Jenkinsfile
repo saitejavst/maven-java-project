@@ -19,7 +19,7 @@ pipeline {
 			    git 'https://github.com/saitejavst/maven-java-project.git'
 			    stash 'Source'
 			    script{
-			        mvnHome = tool 'Maven3.6'
+			        mvnHome = tool 'localmaven'
 			    }
 		    }
 		}

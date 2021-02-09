@@ -16,7 +16,7 @@ pipeline {
 		        label 'master'
 		    }
 		    steps {
-			    git 'https://github.com/venkat09docs/Maven-Java-Project.git'
+			    git 'https://github.com/saitejavst/maven-java-project.git'
 			    stash 'Source'
 			    script{
 			        mvnHome = tool 'Maven3.6'
